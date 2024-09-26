@@ -1,0 +1,12 @@
+# The directory where the Haxe source files are located
+-cp src
+
+# The main entry point of the Haxe application
+-main Main
+
+# Target the HashLink runtime and place the output in the bin directory
+-hl bin/main.hl
+
+# Include debugging information
+-debug
+

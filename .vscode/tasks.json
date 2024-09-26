@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "hxml",
+			"file": "build.hxml",
+			"problemMatcher": [
+				"$haxe"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"promptOnClose": false,
+			"presentation": {
+				"revealProblems": "onProblem",
+				"echo": false,
+				"reveal": "never",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": false,
+				"clear": true
+			},
+			"label": "hxml: build.hxml"
+		}
+	]
+}

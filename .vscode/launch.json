@@ -1,0 +1,20 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "HashLink (launch)",
+			"request": "launch",
+			"type": "hl",
+			"cwd": "${workspaceFolder}/bin",
+			"hotReload": true,
+			"program": "main.hl",
+			"preLaunchTask": "${defaultBuildTask}",
+			"internalConsoleOptions": "openOnSessionStart",
+			"presentation": {
+				"hidden": false,
+				"group": "",
+				"order": 1
+			},
+		}
+	]
+}
